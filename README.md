@@ -11,6 +11,8 @@ eg. !#/bin/bash
 4. Change ownership chmod +x file.sh
 5. run by sh file.sh or ./file.sh
 
+## [free interactive sites o learn](https://www.learnshell.org/)
+
 ###
 Console:
 # – commands to be executed with root privileges directly as a root user or by sudo command
