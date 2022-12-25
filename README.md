@@ -17,8 +17,8 @@ eg. !#/bin/bash
 ## [free interactive sites to learn](https://www.learnshell.org/)
 
 ###
-*Console*:
-// # – commands to be executed with root privileges directly as a root user or by sudo command
-// $ – commands to be executed as a regular non-privileged user
+:*Console Context*
+> (#) – commands to be executed with root privileges directly as a root user or by sudo command.
+> ($) – commands to be executed as a regular non-privileged user.
 
 
