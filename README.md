@@ -21,4 +21,7 @@ eg. !#/bin/bash
 > (#) – commands to be executed with root privileges directly as a root user or by sudo command.
 > ($) – commands to be executed as a regular non-privileged user.
 
-
+# Tips:
+1. Never use UPPERCASE to declare the variable, UPPERCASE is reserved for internal shell variables.
+2. The Dollar ($) character is used for parameter expansion, arithmetic expansion and command substitution.
+3. 
