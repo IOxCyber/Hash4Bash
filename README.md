@@ -25,4 +25,5 @@ eg. !#/bin/bash
 1. Never use UPPERCASE to declare the variable, UPPERCASE is reserved for internal shell variables.
 2. The Dollar ($) character is used for parameter expansion, arithmetic expansion and command substitution.
 3. We can eliminate unwanted stderr message by redirecting it with 2> notation to /dev/null. /dev/null is a data sink, which discards any data redirected to it. eg. possibe stderr commands 2> /dev/null
-4. 
+4. There are no **Booleans in Bash**. However, we can define the shell variable having value as 0 (“ False “) or 1 (“ True “) as per our needs, Bash does have Boolean expressions in terms of comparison and conditions.
+5. 
