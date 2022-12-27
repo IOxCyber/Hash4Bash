@@ -30,5 +30,5 @@ eg. !#/bin/bash
   - esc (if in insert mode)
   - type :set number
   - Number will show on screen.
- 6.
- 
+ 6. Positional Parameter ($0) return the name of the shell or shell script if used within script. [Positional Parameters: Starts from $1, $2, $3....$N]
+ 7. 
