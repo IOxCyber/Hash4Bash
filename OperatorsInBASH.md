@@ -3,12 +3,20 @@
 1. Arithmetic Operators:  (+, -, *, /, %, **, +=, -=, /=)
 2. Integer Operators: (-eq, -ne, -gt, -ge, -lt, -le), <=, >=, <, >)
 3. Increment/Decrement Operators: (++Pre, Post++, --Pre, Post--)
+
+### String Operators:
 4. String Operators: (=, ==, !=, <, >) 
-5. Logical Operators/Boolean Operators: (AND: &&, OR: ||, NOT: !) & -o (used to create Boolean OR logic within two or more conditions. eg. [ $var1 -eq 55 -o $var2 -eq 80 ])
-6. Bitwise Operators: Used to perform bitwise operations on bit patterns (&, |, ^, ~, >>[^1], <<[^2])
+
+### 5. Logical/Boolean Operators:
+(AND: &&, OR: ||, NOT: !) & -o (used to create Boolean OR logic within two or more conditions. eg. [ $var1 -eq 55 -o $var2 -eq 80 ])
+
+### 6. Bitwise Operators:
+   Used to perform bitwise operations on bit patterns (&, |, ^, ~, >>[^1], <<[^2])
 7. Ternary Operator: can be used as an alternative of if statement ( Condition ? Print If True : Print if False)
 8. Comma Operator: used to execute multiple statements in a line. (eg. echo "$(( n=10, n=n+30 ))")
-9. File Test Operators: Syntex: [ -Operator File2Test ] 
+
+### 9. File Test Operators:
+Syntex: [ -Operator File2Test ] 
    - -d operator: Checks if the given directory/folder name exists or not.
    - -e operator: Checks whether the given file exists or not.
    - -r operator: Checks whether the given file has read access or not.
