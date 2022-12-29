@@ -8,12 +8,16 @@
 4. String Operators: (=, ==, !=, <, >) 
 
 ### 5. Logical/Boolean Operators:
-(AND: &&, OR: ||, NOT: !) & -o (used to create Boolean OR logic within two or more conditions. eg. [ $var1 -eq 55 -o $var2 -eq 80 ])
+   (AND: &&, OR: ||, NOT: !) & -o (used to create Boolean OR logic within two or more conditions. eg. [ $var1 -eq 55 -o $var2 -eq 80 ])
 
 ### 6. Bitwise Operators:
    Used to perform bitwise operations on bit patterns (&, |, ^, ~, >>[^1], <<[^2])
-7. Ternary Operator: can be used as an alternative of if statement ( Condition ? Print If True : Print if False)
-8. Comma Operator: used to execute multiple statements in a line. (eg. echo "$(( n=10, n=n+30 ))")
+   
+### 7. Ternary Operator: 
+   can be used as an alternative of if statement ( Condition ? Print If True : Print if False)
+
+### 8. Comma Operator: 
+   used to execute multiple statements in a line. (eg. echo "$(( n=10, n=n+30 ))")
 
 ### 9. File Test Operators:
 Syntex: [ -Operator File2Test ] 
