@@ -8,14 +8,13 @@ eg. !#/bin/bash
 4. Change ownership: chmod +x file.sh
 5. Execute script: sh file.sh or ./file.sh
 6. To check default interpreter: echo $SHELL
-7. Default Shell linking(bash or dash): ls -la /bin/sh
-8. DASH vs BASH: dash is newer standerd of bash by POSIX & some syntex is different as "function" ketword give error in DASH.
+7. To Check Default Shell linking(bash or dash): ls -la /bin/sh
 
 ###
-:*Console Context*
-> (#) – commands to be executed with root privileges directly as a root user or by sudo command.
+:*On Console*
+> (#) – commands executing with root privileges directly as a root user or by sudo command.
 > 
-> ($) – commands to be executed as a regular non-privileged user.
+> ($) – commands executing as a regular non-privileged user.
 
 ## Tips:
 1. Never use UPPERCASE to declare the variable, UPPERCASE is reserved for internal shell variables.
