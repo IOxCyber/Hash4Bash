@@ -1,6 +1,3 @@
-# Hash4Bash
-This Repo contains all the basic Bash codes to learn.
-
 ## Prerequisites
 Before Writing a BASH program, make sure to follow below steps:
 
@@ -13,8 +10,6 @@ eg. !#/bin/bash
 6. To check default interpreter: echo $SHELL
 7. Default Shell linking(bash or dash): ls -la /bin/sh
 8. DASH vs BASH: dash is newer standerd of bash by POSIX & some syntex is different as "function" ketword give error in DASH.
-
-## [free interactive sites to learn](https://www.learnshell.org/)
 
 ###
 :*Console Context*
