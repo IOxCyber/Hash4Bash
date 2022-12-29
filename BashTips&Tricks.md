@@ -14,9 +14,10 @@ eg. !#/bin/bash
 ###
 :*Console Context*
 > (#) – commands to be executed with root privileges directly as a root user or by sudo command.
+> 
 > ($) – commands to be executed as a regular non-privileged user.
 
-# Tips:
+## Tips:
 1. Never use UPPERCASE to declare the variable, UPPERCASE is reserved for internal shell variables.
 2. The Dollar ($) character is used for parameter expansion, arithmetic expansion and command substitution.
 3. We can eliminate unwanted stderr message by redirecting it with 2> notation to /dev/null. /dev/null is a data sink, which discards any data redirected to it. eg. possibe stderr commands 2> /dev/null
