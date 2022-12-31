@@ -27,6 +27,7 @@ eg. !#/bin/bash
   - Number will show on screen.
  6. Positional Parameter ($0) return the name of the shell or shell script if used within script. [Positional Parameters: Starts from $1, $2, $3....$N]
  7. Bash expression: Combination of operators, features, or values used to form a bash conditional statement. Conditional expression could be binary or unary expression which involves numeric, string or any commands whose return status is zero when success.
+ 8. If calling from any Unix shell, and the *parameter has spaces* , then you need to quote it. You should also quote every variable used within the function/script.
 
 
 [^1]: This operator shifts the bits of the left operand to right by number of times specified by right operand. eg. a>>1
