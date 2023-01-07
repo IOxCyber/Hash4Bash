@@ -14,23 +14,32 @@ eg. !#/bin/bash
 
 ## Tips:
 1. Never use UPPERCASE to declare the variable, UPPERCASE is reserved for internal shell variables.
-2. The Dollar ($) character is used for parameter expansion, arithmetic expansion and command substitution.
+2. Job Control: A mechanism by which users can selectively stop (suspend) and restart (resume) execution of processes.
 3. We can eliminate unwanted stderr message by redirecting it with 2> notation to /dev/null. /dev/null is a data sink, which discards any data redirected to it. eg. possibe stderr commands 2> /dev/null
-4. There are no **Booleans in Bash**. However, we can define the shell variable having value as 0 (“ False “) or 1 (“ True “) as per our needs, Bash does have Boolean expressions in terms of comparison and conditions.
+4. Metacharacter: [First interpreted by the shell before passing to the command]A metacharacter is a space, tab, newline, or one of the following characters: ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, ‘<’, or ‘>’.
+
+###
+
 5. To Show/Hide Numbers in vi editor:
   - esc (if in insert mode)
   - type :set number
   - Number will show on screen.
  6. Positional Parameter ($0) return the name of the shell or shell script if used within script. [Positional Parameters: Starts from $1, $2, $3....$N]
- 7. **Bash expression**: Combination of operators, features, or values used to form a bash conditional statement. Conditional expression could be binary or unary expression which involves numeric, string or any commands whose return status is zero when success.
- 8. If calling from any Unix shell, and the *parameter has spaces* , then you need to quote it. You should also quote every variable used within the function/script.\
- 9. In bash, prefer [[ over [. It's more powerful and less likely to act in unexpected ways. For arithmetic operations (numbers), prefer (( over [[. (( is an arithmetic operation while [[ is used for strings.
+ 7. Token: A sequence of characters considered a single unit by the shell. It is either a word or an operator.
+
+###
+
+8. If calling from any Unix shell, and the *parameter has spaces* , then you need to quote it. You should also quote every variable used within the function/script.\
+ 9. Quoting(""): Used to remove the special meaning of certain characters or words to the shell.
 10. Control Operator: A token that performs a control function. It is a newline or one of the following: ‘||’, ‘&&’, ‘&’, ‘;’, ‘;;’, ‘;&’, ‘;;&’, ‘|’, ‘|&’, ‘(’, or ‘)’.
 11. Exit/Return Status: The value returned by a command to after execution. The value is restricted to eight bits, so the maximum value is 255.
-12. Job Control: A mechanism by which users can selectively stop (suspend) and restart (resume) execution of processes.
-13. Metacharacter: [First interpreted by the shell before passing to the command]A metacharacter is a space, tab, newline, or one of the following characters: ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, ‘<’, or ‘>’.
-14. Token: A sequence of characters considered a single unit by the shell. It is either a word or an operator.
-15. Quoting(""): Used to remove the special meaning of certain characters or words to the shell.
+
+
+###
+
+13. 
+14. 
+15. 
 16. 
 
 
