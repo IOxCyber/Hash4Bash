@@ -9,6 +9,7 @@ This Repo contains all the basic Bash codes to learn.
 - [Intermediate Bash](https://linuxconfig.org/bash-scripting-tutorial)
 - [All the Operator](https://linuxhint.com/bash_operator_examples)
 - [Online GNU Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
+- [Guide with Example & Syntex](https://tldp.org/LDP/abs/html/)
 
 
 ## Some Info:
