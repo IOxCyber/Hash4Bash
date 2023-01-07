@@ -13,9 +13,15 @@
 ### 6. Bitwise Operators:
    Used to perform bitwise operations on bit patterns (&, |, ^, ~, >>[^1], <<[^2])
    
-### 7. Ternary / Conditional Operator: 
-   Syntex: $(( expr?expr:expr ))
-   can be used as an alternative of if/else statement ( Condition ? Print If True : Print if False)
+### 7. Ternary Operator: Only works with Ints.
+   - Syntex: $(( expr?expr:expr ))
+   ```
+   eg.
+   x=40
+   y=50
+   ((z=(x>y)?100:200))
+   echo $z
+   ```
 
 ### 8. Comma Operator: 
    used to execute multiple statements in a line. (eg. echo "$(( n=10, n=n+30 ))")
