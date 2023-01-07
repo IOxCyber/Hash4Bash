@@ -1,4 +1,4 @@
-# Operators:
+# [Operators](https://tldp.org/LDP/abs/html/comparison-ops.html):
 ### Integer Operators:
 1. Arithmetic Operators:  (+, -, *, /, %, **, +=, -=, /=)
 2. Integer Operators: (-eq, -ne, -gt, -ge, -lt, -le), <=, >=, <, >)
