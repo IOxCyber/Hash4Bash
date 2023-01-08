@@ -1,14 +1,21 @@
 # [Operators](https://tldp.org/LDP/abs/html/comparison-ops.html):
 ### Integer Operators:
-1. Arithmetic Operators:  (+, -, *, /, %, **, +=, -=, /=)
-2. Integer Operators: (-eq, -ne, -gt, -ge, -lt, -le), <=, >=, <, >)
+1. Arithmetic Operators:  [+, -, *, /, %, **, +=, -=, /=]
+2. Integer Operators: 
+a. -eq, -ne, -gt, -ge, -lt, -le
+   - Syntex [ "$var1" -eq "$var2" ]
+b. <=, >=, <, >
+   - Syntex: (( "$var1" <= "$var2" )) 
 3. Increment/Decrement Operators: (++Pre, Post++, --Pre, Post--)
 
 ### String Operators:
 4. String Operators: (=, ==, !=, <, >) 
+- Syntex: [ "$var1" == "$c=var2" ]
+- **Note:** < less than, > greater than use to compare the characters in ASCII alphabetical order.
 
 ### 5. Logical/Boolean Operators:
-   (AND: &&, OR: ||, NOT: !) & -o (used to create Boolean OR logic within two or more conditions. eg. [ $var1 -eq 55 -o $var2 -eq 80 ])
+   (AND: &&, OR: ||, NOT: !) & -o (used to create Boolean OR logic within two or more conditions. 
+   - eg. [ $var1 -eq 55 ] || [ $var2 -eq 80 ]
 
 ### 6. Bitwise Operators:
    Used to perform bitwise operations on bit patterns (&, |, ^, ~, >>[^1], <<[^2])
@@ -24,7 +31,8 @@
    ```
 
 ### 8. Comma Operator: 
-   used to execute multiple statements in a line. (eg. echo "$(( n=10, n=n+30 ))")
+  - used to execute multiple statements in a line. 
+  - eg. echo "$(( n=10, n=n+30 ))")
 
 ### 9. File Test Operators:
 Syntex: [ -Operator File2Test ] 
