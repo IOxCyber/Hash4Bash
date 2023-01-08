@@ -1,6 +1,6 @@
 # Conditional Constructs
 
-### 1. if: **consequent-commands** will only run when **test-commands** returns status **0** i.e **True**.
+### 1. if: **consequent-commands** will only run when **test-commands** returns status **0** i.e **True**. [See Also](https://github.com/cyberqurious/Hash4Bash/blob/main/Theory/BasicInsight000.md)
   
 ```
 if test-commands; then
