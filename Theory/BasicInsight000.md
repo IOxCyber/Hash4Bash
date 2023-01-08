@@ -7,7 +7,7 @@
 
 ###
 
-## 5. AND and OR short-circuits: sort of if-then-else
+## 5. AND and OR short-circuits: short form of if-then-else
 - can be used for any file existence, variable value, comparator.
 > logical AND stops processing once first false is found.
   - eg 1. [ 1 -eq 0 ] && echo "True" || echo "False!" # This will print False as [ 1 -eq 1 ] will return False, AND will never execute second Expr as first false is foun and print False!
