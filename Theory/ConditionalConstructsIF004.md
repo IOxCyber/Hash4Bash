@@ -13,8 +13,7 @@ fi
 
 ```
 Syntex:
-if [[ $VAR -gt xx ]]
-then
+if [[ $VAR -gt xx ]]; then
   echo "Success!"
 fi
 ```
