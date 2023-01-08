@@ -26,9 +26,7 @@ eg.
 
 ```
 
-2. case
-#!/bin/bash
-# Using the case statement instead of nested if statements, will help you make your bash scripts more readable and easier to maintain.
+### 2. case : Using the case statement instead of nested if statements, will help you make your bash scripts more readable and easier to maintain.
 
 ```
 COUNTRY="Romania"
