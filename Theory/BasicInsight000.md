@@ -19,3 +19,5 @@
  
 **Note**: Side effects. if the test is true but the first expression returns a non-zero result then the second expression will also be evaluated – which is probably unexpected.
 > eg. $ [ 1 -eq 1 ] && { echo "correct, 1 does indeed equal 1";false; } || echo "impossible!" # it returns "false" explicitly after executing 2nd Expr.
+
+
