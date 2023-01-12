@@ -1,7 +1,10 @@
 # BasicInsight
 
-1. The Dollar ($) character is used for parameter expansion, arithmetic expansion and command substitution.
+1. The Dollar ($) character is used for parameter expansion ${var}, arithmetic expansion $((expr var1 + var2)) and command substitution $(command).
 2. There are no **Booleans in Bash**. However, we can define the shell variable having value as 0 (“ False “) or 1 (“ True “) as per our needs, Bash does have Boolean expressions in terms of comparison and conditions.
+
+###
+
 3. **Bash expression**: Combination of operators, features, or values used to form a bash conditional statement. Conditional expression could be binary or unary expression which involves numeric, string or any commands whose return status is zero when success.
 4. In bash, prefer [[ over [. It's more powerful and less likely to act in unexpected ways. For arithmetic operations (numbers), prefer (( over [[. (( is an arithmetic operation while [[ is used for strings.
 
@@ -21,6 +24,9 @@
 > eg. $ [ 1 -eq 1 ] && { echo "correct, 1 does indeed equal 1";false; } || echo "impossible!" # it returns "false" explicitly after executing 2nd Expr.
 
 
-###
+### 6. Shell Parameter Expension:
+- The ‘$’ character introduces parameter expansion, command substitution, or arithmetic expansion.
+- 
 
-## 6. Local, Let, Declare
+## 6. "Parameter Expansion" ${parameter:offset:length}:
+
