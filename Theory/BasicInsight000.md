@@ -21,3 +21,6 @@
 > eg. $ [ 1 -eq 1 ] && { echo "correct, 1 does indeed equal 1";false; } || echo "impossible!" # it returns "false" explicitly after executing 2nd Expr.
 
 
+###
+
+## 6. Local, Let, Declare
