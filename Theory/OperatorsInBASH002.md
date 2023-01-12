@@ -70,3 +70,7 @@ Syntex: [ -Operator File2Test ]
 10. String Operators:
    - -z: used to check the length of a string is zero or not.
    - -n: used to check the length of a string is non-zero or not. 
+
+
+11. control operator:
+- A token that performs a control function. It is a newline or one of the following: ‘||’, ‘&&’, ‘&’, ‘;’, ‘;;’, ‘;&’, ‘;;&’, ‘|’, ‘|&’, ‘(’, or ‘)’.
