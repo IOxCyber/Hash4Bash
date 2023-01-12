@@ -37,7 +37,7 @@ eg. !#/bin/bash
 
 ###
 
-13. 
+13. Use -e to enable the meaning of backword slash '\' in BASH.
 14. 
 15. 
 16. 
