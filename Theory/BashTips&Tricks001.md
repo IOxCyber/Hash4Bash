@@ -33,7 +33,7 @@ eg. !#/bin/bash
  9. Quoting(""): Used to remove the special meaning of certain characters or words to the shell.
 10. Control Operator: A token that performs a control function. It is a newline or one of the following: ‘||’, ‘&&’, ‘&’, ‘;’, ‘;;’, ‘;&’, ‘;;&’, ‘|’, ‘|&’, ‘(’, or ‘)’.
 11. Exit/Return Status: The value returned by a command to after execution. The value is restricted to eight bits, so the maximum value is 255.
-
+12. To compare two vars length, use ${#var} syntex.
 
 ###
 
