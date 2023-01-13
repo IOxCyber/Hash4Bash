@@ -1,5 +1,5 @@
 # Hash4Bash
-This Repo contains all the basic Bash codes to learn.
+
 
 
 ## Free interactive sites to learn:
@@ -11,6 +11,9 @@ This Repo contains all the basic Bash codes to learn.
 - [Online GNU Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
 - [Guide with Example & Syntex](https://tldp.org/LDP/abs/html/)
 
+## Learning Platforms:
+- [Exercism - Bash Track](https://exercism.org/tracks/bash)
+- [Replit - IDE](https://replit.com/)
 
 ## Some Info:
 - DASH vs BASH: dash is newer standerd of bash by POSIX & some syntex is different as "function" ketword give error in DASH.
