@@ -3,7 +3,7 @@ Before Writing a BASH program, make sure to follow below steps:
 
 1. which bash - to know the path for BASH interpreter.
 2. Always start program by (#!) shebang followed by path for BASH interpreter.
-eg. !#/bin/bash
+eg. !#/bin/ev bash
 3. To create a file: touch file.sh
 4. Change ownership: chmod +x file.sh
 5. Execute script: sh file.sh or ./file.sh
