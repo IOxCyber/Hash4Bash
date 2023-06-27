@@ -38,9 +38,6 @@ eg. !#/bin/ev bash
 ###
 
 13. Use -e to enable the meaning of backword slash '\' in BASH.
-14. 
-15. 
-16. 
 
 
 [^1]: This operator shifts the bits of the left operand to right by number of times specified by right operand. eg. a>>1
