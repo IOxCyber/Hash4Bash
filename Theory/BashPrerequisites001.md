@@ -15,8 +15,8 @@ eg. !#/bin/ev bash
 ## Tips:
 1. Never use UPPERCASE to declare the variable, UPPERCASE is reserved for internal shell variables.
 2. Job Control: A mechanism by which users can selectively stop (suspend) and restart (resume) execution of processes.
-3. We can eliminate unwanted stderr message by redirecting it with 2> notation to /dev/null. /dev/null is a data sink, which discards any data redirected to it. eg. possibe stderr commands 2> /dev/null
-4. Metacharacter: [First interpreted by the shell before passing to the command]A metacharacter is a space, tab, newline, or one of the following characters: ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, ‘<’, or ‘>’.
+3. We can eliminate `unwanted stderr message by redirecting` it with `2> notation to /dev/null.` /dev/null is a data sink, which discards any data redirected to it. eg. possibe `stderr commands 2> /dev/null`
+4. Metacharacter: `[First interpreted by the shell before passing to the command]A metacharacter is a space, tab, newline, or one of the following characters: ‘|’, ‘&’, ‘;’, ‘(’, ‘)’, ‘<’, or ‘>’.`
 
 ###
 
@@ -24,16 +24,16 @@ eg. !#/bin/ev bash
   - esc (if in insert mode)
   - type :set number
   - Number will show on screen.
- 6. Positional Parameter ($0) return the name of the shell or shell script if used within script. [Positional Parameters: Starts from $1, $2, $3....$N]
+ 6. Positional Parameter ($0) return the name of the shell or shell script if used within script. `[Positional Parameters: Starts from $1, $2, $3....$N]`
  7. Token: A sequence of characters considered a single unit by the shell. It is either a word or an operator.
 
 ###
 
-8. If calling from any Unix shell, and the *parameter has spaces* , then you need to quote it. You should also quote every variable used within the function/script.\
+8. If calling from any Unix shell, and the `parameter has spaces `, then you need to quote it. You should also quote every variable used within the function/script.\
  9. Quoting(""): Used to remove the special meaning of certain characters or words to the shell.
-10. Control Operator: A token that performs a control function. It is a newline or one of the following: ‘||’, ‘&&’, ‘&’, ‘;’, ‘;;’, ‘;&’, ‘;;&’, ‘|’, ‘|&’, ‘(’, or ‘)’.
+10. `Control Operator`: A token that performs a control function. It is a newline or one of the following: `‘||’, ‘&&’, ‘&’, ‘;’, ‘;;’, ‘;&’, ‘;;&’, ‘|’, ‘|&’, ‘(’, or ‘)’`.
 11. Exit/Return Status: The value returned by a command to after execution. The value is restricted to eight bits, so the maximum value is 255.
-12. To compare two vars length, use ${#var} syntex.
+12. To compare two vars length, use `${#var} syntex`.
 
 ###
 
