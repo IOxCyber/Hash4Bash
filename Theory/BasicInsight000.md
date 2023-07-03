@@ -24,8 +24,8 @@
 > eg. $ [ 1 -eq 1 ] && { echo "correct, 1 does indeed equal 1";false; } || echo "impossible!" # it returns "false" explicitly after executing 2nd Expr.
 
 
-### 6. Shell Parameter Expension:
+### 6. Shell Parameter Expansion:
 - The ‘$’ character introduces parameter expansion, command substitution, or arithmetic expansion.
 
-## 6. "Parameter Expansion" ${parameter:offset:length}:
+## 6. `"Parameter Expansion" ${parameter:offset:length}`
 
