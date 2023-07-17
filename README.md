@@ -22,7 +22,6 @@ Bash is also a programming platform and users are enabled to write programs that
 - [Exercism - Bash Track](https://exercism.org/tracks/bash)
 - [Replit - IDE](https://replit.com/)
 
-## Some Info:
+## Some Insights:
 - DASH vs BASH: dash is newer standerd of bash by POSIX & some syntex is different as "function" ketword give error in DASH.
-- 
 
