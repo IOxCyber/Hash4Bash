@@ -1,16 +1,13 @@
-# Hash4Bash
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+# Hash4Bash 
 
-## BASH
-```
-Bash is a name of the unix shell, which was also distributed as the shell for the GNU operating system and as the default shell on most Linux distros.
-
-Bash is also a programming platform and users are enabled to write programs that accept input and produce output using shell commands in shell scripts.
-```
-
-## 
+## BASH “Bourne Again Shell”
+- Bash is the name of the UNIX shell, which was also distributed as the shell for the GNU operating system and as the default shell on most Linux distros.
+- Bash is also a programming platform and users are enabled to write programs that accept input and produce output using shell commands in shell scripts.
 
 ## Free Websites to learn:
 - From Manual Page (Just do on Terminal: man bash)
+- [Learning Dojo](https://www.learn-bash.org/)
 - [Learn Shell](https://www.learnshell.org/)
 - [Beginners Bash](https://linuxconfig.org/bash-scripting-tutorial-for-beginners)
 - [Intermediate Bash](https://linuxconfig.org/bash-scripting-tutorial)
@@ -24,4 +21,6 @@ Bash is also a programming platform and users are enabled to write programs that
 
 ## Some Insights:
 - DASH vs BASH: dash is newer standerd of bash by POSIX & some syntex is different as "function" ketword give error in DASH.
+- Shell programming uses other common shells such as sh, csh, tcsh.
+- 
 
