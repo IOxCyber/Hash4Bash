@@ -1,6 +1,7 @@
 # Conditional Constructs
 
-### 1. if: **consequent-commands** will only run when **test-commands** returns status **0** i.e **True**. [See Also](https://github.com/cyberqurious/Hash4Bash/blob/main/Theory/BasicInsight000.md#5-and-and-or-short-circuits-short-form-of-if-then-else)
+## 1. if: 
+- `consequent-commands` will only run when `test-commands` returns status `0` i.e `True`. [See Also](https://github.com/IOxCyber/Hash4Bash/blob/main/Theory/BasicInsight000.md#5-and-and-or-short-circuits-short-form-of-if-then-else)
   
 ```
 if test-commands; then
@@ -26,7 +27,8 @@ eg.
 
 ```
 
-### 2. case : Using the case statement instead of nested if statements, will help you make your bash scripts more readable and easier to maintain.
+## 2. case : 
+- Using the case statement instead of nested if statements, will help you make your bash scripts more readable and easier to maintain.
 
 ```
 COUNTRY="Romania"
@@ -59,8 +61,5 @@ esac
 - pattern and its associated commands are known as a clause
 - to use the wildcard asterisk symbol (*) as a final pattern to define the default case.
 - If no pattern is matched, the return status is zero
-
-
-3.
 
 
