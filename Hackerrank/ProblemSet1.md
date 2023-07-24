@@ -31,8 +31,8 @@ echo "Hello, $name! How are you today?"
 - Using `let`
 - Syntex: `let "sum = num1 + num2"; echo $sum` # It requires the 3rd variable.
 
+Example 1:
 ```
-Example:
 read X
 read Y
 
@@ -40,6 +40,14 @@ echo "$(expr $X + $Y)"
 echo "$(expr $X - $Y)"
 echo "$((X * Y))"
 echo "$(expr $X / $Y)"
+```
+- Example 2:
+```
+read expression
+
+#result=$( bc <<< " scale=3; $expression " )
+result=$(awk "BEGIN {printf \"%.3f\", $expression}")
+echo $result
 ```
 
 ## 4. Comparing Numbers: `if-then-else`
@@ -89,7 +97,6 @@ fi
 ```
 
 5. 
-
 
 
 
