@@ -1,8 +1,8 @@
 # Conditional Constructs
 
 ## 1. if: 
-- `consequent-commands` will only run when `test-commands` returns status `0` i.e `True`. [See Also](https://github.com/IOxCyber/Hash4Bash/blob/main/Theory/BasicInsight000.md#5-and-and-or-short-circuits-short-form-of-if-then-else)
-  
+- `consequent-commands` will only run when `test-commands` returns status `0` i.e `True`.
+
 ```
 if test-commands; then
   consequent-commands;
