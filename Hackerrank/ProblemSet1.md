@@ -95,16 +95,3 @@ else
     echo "SCALENE"
 fi
 ```
-
-5. 
-
-
-
-
-
-
-
-
-
-
-
