@@ -18,6 +18,10 @@
 - [Exercism - Bash Track](https://exercism.org/tracks/bash)
 - [Replit - IDE](https://replit.com/)
 
+## Online Compiler:
+- [Rextester](https://rextester.com/l/bash_online_compiler)
+- [OneCompiler](https://onecompiler.com/bash)
+
 ## Some Insights:
 - DASH vs BASH: dash is newer standerd of bash by POSIX & some syntex is different as "function" ketword give error in DASH.
 - Shell programming uses other common shells such as sh, csh, tcsh.
