@@ -4,11 +4,11 @@
 - `consequent-commands` will only run when `test-commands` returns status `0` i.e `True`.
 
 ```
-if test-commands; then
+if [[test-commands]]; then
   consequent-commands;
-[elif more-test-commands; then
-  more-consequents;]
-[else alternate-consequents;]
+elif [[ more-test-commands]]; then
+  more-consequents;
+else alternate-consequents;
 fi
 ```
 
