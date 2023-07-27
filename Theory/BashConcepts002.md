@@ -5,7 +5,7 @@
 >
 > `Parameter Expansion ${parameter:offset:length}`
 
-2. There are no `**Booleans in Bash**`. However, we can define the shell variable having value as `0 (“ False “) or 1 (“ True “)` as per our needs, Bash does have Boolean expressions in terms of comparison and conditions.
+2. There are no `Booleans in Bash`. However, we can define the shell variable having value as `0 (“ False “) or 1 (“ True “)` as per our needs, Bash does have Boolean expressions in terms of comparison and conditions.
 
 3. `Bash expression`: Combination of operators, features, or values used to form a bash conditional statement. The conditional expression could be a binary or unary expression that involves numeric, string, or any commands whose `return status is zero when successful` check with `echo $?`.
 
